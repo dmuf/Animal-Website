@@ -35,7 +35,7 @@ A multi-page educational website showcasing an animal, its habitat, behavior, an
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/animal-website.git
+   git clone https://github.com/dmuf/animal-website.git
    ```
 2. Open `index.html` in your browser to explore the full site.
 
