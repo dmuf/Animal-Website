@@ -1,0 +1,115 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Style for all div elements: removes border, adds spacing, transparent background */
+
+div {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+
+}
+
+/* Style for span elements inside a div: larger, bold text with custom color */
+div span {
+    font-family: 'Merriweather', serif;
+    color: #393E46;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Style for links inside a div: removes underline, adds padding, bold text */
+
+div a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+/* Style for the body of the page: sets font family, background, text alignment, text color, and removes margins/padding */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #DFD0B8;
+    text-align: center;
+    color: #222831;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Style for all images: fixes height, adds border, and spacing around them */
+
+img {
+    height: 400px;
+    border: 2px solid #948979;
+    margin: 10px;
+}
+
+/* Style for navigation menu (class Navigation): floats right, adjusts size and spacing */
+
+.Navigation {
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+/* Style for elements with ID "header": changes text color and adds spacing */
+
+#header {
+    font-family: 'Merriweather', serif;
+    color: #135722;
+    padding: 10px;
+    margin: 10px;
+}
+
+figure {
+    font-style: italic;
+    font-size: small;
+}
+
+li {
+    line-height: 1.4;
+}
+
+h3 {
+    color: #135722;
+}
+
+h2 {
+    color: #135722;
+}
+
+.behavior-box {
+    font-family: 'Merriweather', serif;
+    background-color: #222;
+    color: #f4f4f4;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Targets all links inside the Navigation div */
+.Navigation a {
+    font-size: 12px;
+    /* changes text size */
+    color: #135722;
+    /* sets text color (you can use hex, rgb, or color names) */
+    text-decoration: none;
+    /* removes underline */
+    font-weight: bold;
+    /* optional: makes the text bolder */
+}
+
+/* Optional: change color when you hover over a link */
+.Navigation a:hover {
+    color: #8D99AE;
+    /* lighter color on hover */
+}
