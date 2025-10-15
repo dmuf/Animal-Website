@@ -1,50 +1,47 @@
-Animal Website Midterm Project
 
-A multi-page website created as part of a school midterm project, showcasing an animal with details about its habitat, behavior, and credits.
+# 🐾 Animal Website Midterm Project
 
-Pages
+A multi-page educational website showcasing an animal, its habitat, behavior, and project credits. Built as part of a school midterm project using **HTML5** and **CSS3**, with accessibility and design best practices in mind.
 
-Home – Introduction and overview of the animal.
+## 🌐 Pages
 
-Habitat – Information on natural environment and distribution.
+* **Home** – Introduction and overview of the featured animal.
+* **Habitat** – Natural environment, geographic range, and climate details.
+* **Behavior** – Diet, daily activities, and social behaviors.
+* **About & Credits** – Project info, sources, and proper image attributions.
 
-Behavior – Details on diet, daily activities, and social habits.
+## 🎨 Features
 
-About & Credits – Sources, image attributions, and project information.
+* **Consistent color palette** of three colors applied across all pages for a cohesive design.
+* **Accessible design** meeting WCAG AA standards for color contrast.
+* **Responsive and maintainable layout**, with organized folder structure:
 
-Features
+  ```
+  midterm-project/
+  ├── index.html
+  ├── habitat.html
+  ├── behavior.html
+  ├── about.html
+  ├── assets/
+  │   ├── images/
+  │   └── icons/
+  └── style.css
+  ```
+* **User-friendly navigation** linking all pages seamlessly.
+* Integration of **images, background graphics, and identity logo** with proper attribution.
 
-Multi-page navigation with a consistent color palette of at least three colors.
+## 🚀 How to View
 
-Fully styled using HTML5 and CSS3 with external CSS.
+1. Clone the repository:
 
-Accessible design following WCAG AA standards for color contrast.
+   ```bash
+   git clone https://github.com/your-username/animal-website.git
+   ```
+2. Open `index.html` in your browser to explore the full site.
 
-Includes images, background graphics, and an identity logo with proper attribution.
+## 📚 Credits
 
-Organized folder structure for maintainability:
+* Textual content sourced from **Wikipedia.org**.
+* Images and graphics used under proper usage rights with attribution.
 
-midterm-project/
-├── index.html
-├── habitat.html
-├── behavior.html
-├── about.html
-├── assets/
-│   ├── images/
-│   └── icons/
-└── style.css
-
-How to Run
-
-Clone the repository:
-
-git clone https://github.com/your-username/animal-website.git
-
-
-Open index.html in a web browser to explore the site.
-
-Credits
-
-Animal information sourced from Wikipedia.org.
-
-Images used under proper usage rights with attribution.
+---
